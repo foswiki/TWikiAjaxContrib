@@ -297,7 +297,7 @@ Behaviour.register(myrules);
 
 ---+++!! Demo
 <div style="margin:1em 0;">
-<input id="loadSearchResultsButton" class="twikiButton" type="button" value="Load contents" />
+<input id="loadSearchResultsButton" class="foswikiButton" type="button" value="Load contents" />
 <br />
 <div style="float:left; margin:1em 1em 0 0;">
 	Plugin container
@@ -409,7 +409,7 @@ showimgleft="%ICONURLPATH{toggleopen-small}%"
 hideimgleft="%ICONURLPATH{toggleclose-small}%"}%
 <div id="example_caching_demo_contents">
 	<div id="cachedContentContainer" style="width:600px; padding:10px; border:1px solid #999;"></div>
-	<p><input id="clearCacheButton" class="twikiButton" type="button" value="Clear cache" /></p>
+	<p><input id="clearCacheButton" class="foswikiButton" type="button" value="Clear cache" /></p>
 <br />
 </div>
 %ENDTWISTY%
@@ -487,7 +487,7 @@ Behaviour.register(myrules);
 
 ---+++!! Demo
 
-<input id="loadWithCustomIndicatorButton" class="twikiButton" type="button" value="Load contents" />
+<input id="loadWithCustomIndicatorButton" class="foswikiButton" type="button" value="Load contents" />
 <br />
 <div style="margin:1em 0 0 0;">
 	<div id="customIndicatorContainer" style="width:300px; height:300px; overflow:auto; padding:10px; border:1px solid #999;"></div>
@@ -627,7 +627,7 @@ showimgleft="%ICONURLPATH{toggleopen-small}%"
 hideimgleft="%ICONURLPATH{toggleclose-small}%"}%
 <div id="example_caching_demo_contents">
 	<div id="cachedHtmlProcessingContentContainer" style="width:600px; padding:10px; border:1px solid #999;"></div>
-	<p><input id="clearHtmlProcessingCacheButton" class="twikiButton" type="button" value="Clear cache" /></p>
+	<p><input id="clearHtmlProcessingCacheButton" class="foswikiButton" type="button" value="Clear cache" /></p>
 <br />
 </div>
 %ENDTWISTY%
@@ -783,7 +783,7 @@ Behaviour.register(myrules);
 
 ---+++!! Demo
 
-<input id="loadXmlDataButton" class="twikiButton" type="button" value="Load XML data" />
+<input id="loadXmlDataButton" class="foswikiButton" type="button" value="Load XML data" />
 <br />
 <div style="margin:1em 0 0 0;">
 	<div id="xmlDataContainer" style="width:300px; height:300px; overflow:auto; padding:10px; border:1px solid #999;">Countries</div>
@@ -886,7 +886,7 @@ Behaviour.register(myrules);
 <tr>
 <th class="last">%MAKETEXT{"Search where:"}%</th>
 <td class="last">
-<input type="radio" class="twikiRadioButton" id="textbody" name="scope" value="text" %IF{" '%URLPARAM{"scope" default="text"}%' = 'text' " then="checked=\"checked\"" else=""}% /><label for="textbody"> %MAKETEXT{"Text body"}%</label>&nbsp;&nbsp;&nbsp;<input type="radio" class="twikiRadioButton" id="topictitle" name="scope" value="topic" %IF{" '%URLPARAM{scope}%' = 'topic' " then="checked=\"checked\"" else=""}% /><label for="topictitle"> %MAKETEXT{"Topic title"}%</label>&nbsp;&nbsp;&nbsp;<input type="radio" class="twikiRadioButton" id="both" name="scope" value="all" %IF{" '%URLPARAM{scope}%' = 'all' " then="checked=\"checked\"" else=""}% /><label for="both"> %MAKETEXT{"Both body and title"}%</label>
+<input type="radio" class="foswikiRadioButton" id="textbody" name="scope" value="text" %IF{" '%URLPARAM{"scope" default="text"}%' = 'text' " then="checked=\"checked\"" else=""}% /><label for="textbody"> %MAKETEXT{"Text body"}%</label>&nbsp;&nbsp;&nbsp;<input type="radio" class="foswikiRadioButton" id="topictitle" name="scope" value="topic" %IF{" '%URLPARAM{scope}%' = 'topic' " then="checked=\"checked\"" else=""}% /><label for="topictitle"> %MAKETEXT{"Topic title"}%</label>&nbsp;&nbsp;&nbsp;<input type="radio" class="foswikiRadioButton" id="both" name="scope" value="all" %IF{" '%URLPARAM{scope}%' = 'all' " then="checked=\"checked\"" else=""}% /><label for="both"> %MAKETEXT{"Both body and title"}%</label>
 <hr />
 <input type="checkbox" class="twikiCheckbox" id="web" name="web" %IF{" '%URLPARAM{web}%' = 'on'" then="checked=\"checked\"" else=""}% /><label for="web"> %MAKETEXT{"All public webs"}%</label> <span class="twikiSmall">%MAKETEXT{"(otherwise search [_1] Web only)" args="<nop>%INCLUDINGWEB%"}%</span>
 <input type=hidden id="skin" name="skin" value="text" />
@@ -973,7 +973,7 @@ Behaviour.register(myrules);
 
 ---+++!! Demo
 
-<input id="failureButton" class="twikiButton" type="button" value="Load (failing) contents" />
+<input id="failureButton" class="foswikiButton" type="button" value="Load (failing) contents" />
 <br />
 <div style="margin:1em 0 0 0;">
 	<div id="failureContainer" style="width:300px; height:100px; overflow:auto; padding:10px; border:1px solid #999;"></div>
